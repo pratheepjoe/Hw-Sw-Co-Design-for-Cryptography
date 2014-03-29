@@ -1,0 +1,9 @@
+elfcheck
+Xilinx EDK 14.4 Build EDK_P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../xps_workspace_hw_platform/system.xml -pe
+microblaze_0 lab3_galois_field.elf 
+
+ELF file	: lab3_galois_field.elf
+elfcheck passed.
