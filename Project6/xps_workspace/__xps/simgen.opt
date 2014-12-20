@@ -1,0 +1,1 @@
+ -p virtex5 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X C:/Users/pi4810/Desktop/Lab6_1/xps_workspace/

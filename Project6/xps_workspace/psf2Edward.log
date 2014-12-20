@@ -1,0 +1,51 @@
+
+Checking platform configuration ...
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 10 slave(s) 
+IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_0 - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_1 - 1 master(s) : 1 slave(s) 
+IPNAME: fsl_v20, INSTANCE: fsl_v20_2 - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: FSL0_M_CLK, CONNECTOR: fsl_v20_0_FSL_M_Clk - floating
+   connection -
+   C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_40_a\d
+   ata\microblaze_v2_1_0.mpd line 703 
+WARNING:EDK:4181 - PORT: FSL1_M_CLK, CONNECTOR: fsl_v20_1_FSL_M_Clk - floating
+   connection -
+   C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_40_a\d
+   ata\microblaze_v2_1_0.mpd line 713 
+WARNING:EDK:4181 - PORT: FSL2_S_CLK, CONNECTOR: fsl_v20_2_FSL_S_Clk - floating
+   connection -
+   C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_40_a\d
+   ata\microblaze_v2_1_0.mpd line 718 
+WARNING:EDK:4181 - PORT: CipherText_FSL_M_Clk, CONNECTOR: fsl_v20_2_FSL_M_Clk -
+   floating connection -
+   C:\Users\pi4810\Desktop\Lab6_1\xps_workspace\pcores\encrypt_top_v1_00_a\data\
+   encrypt_top_v2_1_0.mpd line 33 
+WARNING:EDK:4181 - PORT: Key_FSL_S_Clk, CONNECTOR: fsl_v20_1_FSL_S_Clk -
+   floating connection -
+   C:\Users\pi4810\Desktop\Lab6_1\xps_workspace\pcores\encrypt_top_v1_00_a\data\
+   encrypt_top_v2_1_0.mpd line 48 
+WARNING:EDK:4181 - PORT: PlainText_FSL_S_Clk, CONNECTOR: fsl_v20_0_FSL_S_Clk -
+   floating connection -
+   C:\Users\pi4810\Desktop\Lab6_1\xps_workspace\pcores\encrypt_top_v1_00_a\data\
+   encrypt_top_v2_1_0.mpd line 63 
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+Conversion to XML complete.
