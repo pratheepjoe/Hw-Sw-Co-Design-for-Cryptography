@@ -1,0 +1,4 @@
+-Identify hotspots in software using profiling and analysis techniques
+- Apply software optimization techniques in an iterative fashion to generate performance reports
+- Use source code manipulation techniques to improve the software performance
+- Understand different design strategies and implementation techniques for AES

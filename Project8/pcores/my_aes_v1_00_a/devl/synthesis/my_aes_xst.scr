@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "C:\Rajeev\Lab9a\pcores\my_aes_v1_00_a\devl\synthesis\my_aes_xst.prj"
+-top my_aes
+-p virtex6
+-ofn "C:\Rajeev\Lab9a\pcores\my_aes_v1_00_a\devl\synthesis\my_aes_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib my_aes_v1_00_a

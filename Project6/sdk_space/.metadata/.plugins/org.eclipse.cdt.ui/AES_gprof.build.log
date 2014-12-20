@@ -1,0 +1,68 @@
+
+**** Build of configuration Debug for project AES_gprof ****
+
+make all 
+Building file: ../src/AES.cpp
+Invoking: MicroBlaze g++ compiler
+mb-g++ -Wall -O0 -g3 -pg -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_1/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -MMD -MP -MF"src/AES.d" -MT"src/AES.d" -o"src/AES.o" "../src/AES.cpp"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\AES_gprof\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/AES_gprof/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/AES.cpp
+ 
+Building file: ../src/AES_test.cpp
+Invoking: MicroBlaze g++ compiler
+mb-g++ -Wall -O0 -g3 -pg -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_1/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -MMD -MP -MF"src/AES_test.d" -MT"src/AES_test.d" -o"src/AES_test.o" "../src/AES_test.cpp"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\AES_gprof\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/AES_gprof/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/AES_test.cpp
+ 
+Building target: AES_gprof.elf
+Invoking: MicroBlaze g++ linker
+mb-g++ -Wl,--no-relax -Wl,-T -Wl,../src/lscript.ld -pg -L../../standalone_bsp_1/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -o"AES_gprof.elf"  ./src/AES.o ./src/AES_test.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\AES_gprof\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/AES_gprof/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: AES_gprof.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size AES_gprof.elf  |tee "AES_gprof.elf.size"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\AES_gprof\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/AES_gprof/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+   7738	    400	   2102	  10240	   2800	AES_gprof.elf
+Finished building: AES_gprof.elf.size
+ 
+Invoking: Xilinx ELF Check
+elfcheck AES_gprof.elf -hw ../../xps_workspace_hw_platform/system.xml -pe microblaze_0  |tee "AES_gprof.elf.elfcheck"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\AES_gprof\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/AES_gprof/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+elfcheck
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../xps_workspace_hw_platform/system.xml -pe
+microblaze_0 AES_gprof.elf 
+
+ELF file	: AES_gprof.elf
+elfcheck passed.
+Finished building: AES_gprof.elf.elfcheck
+ 

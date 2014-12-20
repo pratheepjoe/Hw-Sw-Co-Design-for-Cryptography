@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">my_aes_v1_00_a/my_aes</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/my_aes.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/my_aes.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">my_aes_v1_00_a/my_aes/IMP</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/my_aes.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/my_aes.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">my_aes_v1_00_a/user_logic</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/user_logic.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">my_aes_v1_00_a/user_logic/IMP</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/user_logic.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">plbv46_slave_single_v1_01_a/plbv46_slave_single</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">plbv46_slave_single_v1_01_a/plbv46_slave_single/implementation</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">plbv46_slave_single_v1_01_a/plb_slave_attachment</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">plbv46_slave_single_v1_01_a/plb_slave_attachment/implementation</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">plbv46_slave_single_v1_01_a/plb_address_decoder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">plbv46_slave_single_v1_01_a/plb_address_decoder/IMP</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/counter_f</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/counter_f/imp</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/ipif_pkg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/ipif_pkg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/or_gate128</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/or_gate128/imp</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/pselect_f</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/pselect_f/imp</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/family_support</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/family_support</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/or_muxcy</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/or_muxcy/implementation</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/proc_common_pkg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">proc_common_v3_00_a/proc_common_pkg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd</arg>&quot; line <arg fmt="%d" index="2">535</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">SIGIS</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">A</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="new" >Signal &lt;<arg fmt="%s" index="1">sSBOX_MEM</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">test</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">scount</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Bus_RNW_Erly</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Address_In_Erly</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Address_Valid_Erly</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">cs_s_h_clr</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">cs_ce_clr</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">addr_out_s_h&lt;4:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">addr_match_clr</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_UABus</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">valid_plb_type</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">valid_plb_size</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">start_data_phase</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sl_wrdack_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sl_wrcomp_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sl_wait_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sl_rddack_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sl_rdcomp_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sl_data_ack</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">set_sl_busy_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rd_ce_ld_enable</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">clear_sl_rd_busy_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">clear_sl_rd_busy</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">clear_sl_busy_ns</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">clear_rd_ce</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_wrPrim</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_MSize</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_rdBurst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_SAValid</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_wrPendReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_wrPendPri</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_rdPendReq</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_rdPendPri</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_busLock</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_wrDBus&lt;32:127&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_reqPri</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_lockErr</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_wrBurst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_TAttribute</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_rdPrim</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLB_abort</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ipif_Bus2IP_WrCE&lt;13:15&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ipif_Bus2IP_RdCE&lt;13:15&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ipif_Bus2IP_RNW</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ipif_Bus2IP_CS&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ipif_Bus2IP_Addr</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">MEM_DECODE_GEN[0].PER_CE_GEN[13].MULTIPLE_CES_THIS_CS_GEN.CE_I</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">I_DECODER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">MEM_DECODE_GEN[0].PER_CE_GEN[14].MULTIPLE_CES_THIS_CS_GEN.CE_I</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">I_DECODER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">MEM_DECODE_GEN[0].PER_CE_GEN[15].MULTIPLE_CES_THIS_CS_GEN.CE_I</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">I_DECODER</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mwrerr_i_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">sl_mrderr_i_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">I_SLAVE_ATTACHMENT</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">addr_out_s_h_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_DECODER</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">addr_out_s_h_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_DECODER</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">plb_abus_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">I_SLAVE_ATTACHMENT</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_sKEY_MEM</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_02/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_02/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_02/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_02/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_01/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_01/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_01/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_01/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[3].SBOX_2_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[3].SBOX_2_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[3].SBOX_1_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[3].SBOX_1_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[2].SBOX_2_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[2].SBOX_2_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[2].SBOX_1_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[2].SBOX_1_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[1].SBOX_2_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[1].SBOX_2_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[1].SBOX_1_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[1].SBOX_1_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[0].SBOX_2_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[0].SBOX_2_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[0].SBOX_1_0/SBOX_DATA_OUT_B</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3044" delta="new" >The ROM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as a read-only BLOCK RAM, absorbing the register: &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[0].SBOX_1_0/SBOX_DATA_OUT_A</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_02/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_02/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_01/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_01/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0001</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="info" file="Xst" num="3225" delta="new" >The RAM &lt;<arg fmt="%s" index="1">SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0000</arg>&gt; will be implemented as BLOCK RAM
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">addr_out_s_h_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb_address_decoder</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">addr_out_s_h_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">plb_address_decoder</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">addr_cntl_cs_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">plb_slave_attachment</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;addr_cycle_flush&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_02/Mrom__varindex0001</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_02/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_02/Mrom__varindex00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0001</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_01/Mrom__varindex0001</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_01/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_01/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0001</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0001</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0001</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0000</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0001</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex00001</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0001</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0001</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex00011</arg>&gt;
+</msg>
+
+<msg type="info" file="Xst" num="2697" delta="new" >Unit &lt;<arg fmt="%s" index="1">AES_component</arg>&gt; : the RAMs &lt;<arg fmt="%s" index="2">SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0001</arg>&gt;, &lt;<arg fmt="%s" index="3">SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0000</arg>&gt; are packed into the single block RAM &lt;<arg fmt="%s" index="4">SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex00011</arg>&gt;
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">my_aes</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_s_h_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">my_aes</arg>&gt;.
+</msg>
+
+</messages>
+

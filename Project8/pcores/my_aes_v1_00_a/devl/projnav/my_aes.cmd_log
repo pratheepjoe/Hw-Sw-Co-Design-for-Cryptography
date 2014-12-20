@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/my_aes.xst" -ofn "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/my_aes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vfx70t-ff1136-1 my_aes.ngc my_aes.ngd  
+map -intstyle ise -p xc5vfx70t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o my_aes_map.ncd my_aes.ngd my_aes.pcf 
+par -w -intstyle ise -ol high -mt off my_aes_map.ncd my_aes.ncd my_aes.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml my_aes.twx my_aes.ncd -o my_aes.twr my_aes.pcf 

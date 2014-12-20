@@ -1,0 +1,10 @@
+-batch 
+-create my_aes 
+-ver 1.00.a 
+-dir "C:\Rajeev\Lab9a" 
+-lang vhdl 
+-bus plbv46 s 
+-reg 13 
+-xps 
+-ise 
+-driver 

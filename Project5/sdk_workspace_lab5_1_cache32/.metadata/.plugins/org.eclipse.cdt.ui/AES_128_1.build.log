@@ -1,0 +1,75 @@
+
+**** Build of configuration Debug for project AES_128_1 ****
+
+make all 
+Building file: ../src/AES_128.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -pg -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.b -mno-xl-soft-mul -MMD -MP -MF"src/AES_128.d" -MT"src/AES_128.d" -o"src/AES_128.o" "../src/AES_128.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab-5-1\sdk_workspace_lab5_1_cache32\AES_128_1\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab-5-1/sdk_workspace_lab5_1_cache32/AES_128_1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/AES_128.c: In function 'ExpandKey':
+../src/AES_128.c:79:3: warning: implicit declaration of function 'bzero' [-Wimplicit-function-declaration]
+../src/AES_128.c:79:3: warning: incompatible implicit declaration of built-in function 'bzero' [enabled by default]
+../src/AES_128.c:85:3: warning: implicit declaration of function 'memcpy' [-Wimplicit-function-declaration]
+../src/AES_128.c:85:3: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
+../src/AES_128.c: In function 'MixColumns':
+../src/AES_128.c:184:2: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
+../src/AES_128.c: In function 'InvSubBytes':
+../src/AES_128.c:193:8: warning: unused variable 'j' [-Wunused-variable]
+../src/AES_128.c:193:6: warning: unused variable 'i' [-Wunused-variable]
+../src/AES_128.c: In function 'InvShiftRows':
+../src/AES_128.c:199:16: warning: unused variable 'x' [-Wunused-variable]
+../src/AES_128.c: In function 'InvMixColumns':
+../src/AES_128.c:221:3: warning: incompatible implicit declaration of built-in function 'memcpy' [enabled by default]
+../src/AES_128.c: In function 'AES_printf':
+../src/AES_128.c:231:2: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+../src/AES_128.c: In function 'SubBytesCalculated':
+../src/AES_128.c:141:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../src/AES_128.c
+ 
+Building target: AES_128_1.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,--no-relax -Wl,-T -Wl,../src/lscript.ld -pg -L../../standalone_bsp_0/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.b -mno-xl-soft-mul -o"AES_128_1.elf"  ./src/AES_128.o ./src/AES_128_main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab-5-1\sdk_workspace_lab5_1_cache32\AES_128_1\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab-5-1/sdk_workspace_lab5_1_cache32/AES_128_1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: AES_128_1.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size AES_128_1.elf  |tee "AES_128_1.elf.size"
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab-5-1\sdk_workspace_lab5_1_cache32\AES_128_1\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab-5-1/sdk_workspace_lab5_1_cache32/AES_128_1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  12302	    388	   2544	  15234	   3b82	AES_128_1.elf
+Finished building: AES_128_1.elf.size
+ 
+Invoking: Xilinx ELF Check
+elfcheck AES_128_1.elf -hw ../../xps_workspace_cache32_hw_platform/system.xml -pe microblaze_0  |tee "AES_128_1.elf.elfcheck"
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab-5-1\sdk_workspace_lab5_1_cache32\AES_128_1\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab-5-1/sdk_workspace_lab5_1_cache32/AES_128_1/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+elfcheck
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../xps_workspace_cache32_hw_platform/system.xml
+-pe microblaze_0 AES_128_1.elf 
+
+ELF file	: AES_128_1.elf
+elfcheck passed.
+Finished building: AES_128_1.elf.elfcheck
+ 

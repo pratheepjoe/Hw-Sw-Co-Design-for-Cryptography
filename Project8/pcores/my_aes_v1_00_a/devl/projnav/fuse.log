@@ -1,0 +1,26 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/tb_isim_beh.exe -prj C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/tb_beh.prj work.tb 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" into library proc_common_v3_00_a
+Parsing VHDL file "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/aes_component.vhd" into library work
+Parsing VHDL file "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package proc_common_pkg
+Compiling architecture beh of entity SBOX_MEM [sbox_mem_default]
+Compiling architecture behavioral of entity AES_component [aes_component_default]
+WARNING:HDLCompiler:1242 - "N:/P.49d/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 2278: Warning: "There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es)."
+WARNING:HDLCompiler:1242 - "N:/P.49d/rtf/vhdl/src/ieee/std_logic_arith.vhd" Line 2281: Warning: "CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0."
+Compiling architecture behavior of entity tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/tb_isim_beh.exe
+Fuse Memory Usage: 33964 KB
+Fuse CPU Usage: 873 ms

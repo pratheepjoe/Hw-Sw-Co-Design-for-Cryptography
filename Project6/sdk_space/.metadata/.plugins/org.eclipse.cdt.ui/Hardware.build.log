@@ -1,0 +1,88 @@
+
+**** Build of configuration Debug for project Hardware ****
+
+make all 
+Building file: ../src/PLB46S_addrmap.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -MMD -MP -MF"src/PLB46S_addrmap.d" -MT"src/PLB46S_addrmap.d" -o"src/PLB46S_addrmap.o" "../src/PLB46S_addrmap.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\Hardware\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/Hardware/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/PLB46S_addrmap.c
+ 
+Building file: ../src/SDK_hw_AES.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -MMD -MP -MF"src/SDK_hw_AES.d" -MT"src/SDK_hw_AES.d" -o"src/SDK_hw_AES.o" "../src/SDK_hw_AES.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\Hardware\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/Hardware/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/SDK_hw_AES.c: In function 'main':
+../src/SDK_hw_AES.c:51:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+../src/SDK_hw_AES.c:51:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+../src/SDK_hw_AES.c:52:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+../src/SDK_hw_AES.c:52:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+../src/SDK_hw_AES.c:76:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+../src/SDK_hw_AES.c:76:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+../src/SDK_hw_AES.c:77:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+../src/SDK_hw_AES.c:77:2: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'u32' [-Wformat]
+Finished building: ../src/SDK_hw_AES.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o"src/platform.o" "../src/platform.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\Hardware\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/Hardware/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform.c
+ 
+Building target: Hardware.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,--no-relax -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -o"Hardware.elf"  ./src/PLB46S_addrmap.o ./src/SDK_hw_AES.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\Hardware\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/Hardware/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: Hardware.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size Hardware.elf  |tee "Hardware.elf.size"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\Hardware\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/Hardware/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+  63044	   1680	   2164	  66888	  10548	Hardware.elf
+Finished building: Hardware.elf.size
+ 
+Invoking: Xilinx ELF Check
+elfcheck Hardware.elf -hw ../../xps_workspace_hw_platform/system.xml -pe microblaze_0  |tee "Hardware.elf.elfcheck"
+cygwin warning:
+  MS-DOS style path detected: C:\Users\pi4810\Desktop\Lab6_1\sdk_space\Hardware\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Users/pi4810/Desktop/Lab6_1/sdk_space/Hardware/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+elfcheck
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../xps_workspace_hw_platform/system.xml -pe
+microblaze_0 Hardware.elf 
+
+ELF file	: Hardware.elf
+elfcheck passed.
+Finished building: Hardware.elf.elfcheck
+ 

@@ -1,0 +1,416 @@
+Release 14.4 Map P.49d (nt64)
+Xilinx Mapping Report File for Design 'my_aes'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vfx70t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o my_aes_map.ncd my_aes.ngd my_aes.pcf 
+Target Device  : xc5vfx70t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Sun May 18 03:43:15 2014
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                   954 out of  44,800    2%
+    Number used as Flip Flops:                 954
+  Number of Slice LUTs:                        953 out of  44,800    2%
+    Number used as logic:                      953 out of  44,800    2%
+      Number using O6 output only:             942
+      Number using O5 and O6:                   11
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   339 out of  11,200    3%
+  Number of LUT Flip Flop pairs used:        1,238
+    Number with an unused Flip Flop:           284 out of   1,238   22%
+    Number with an unused LUT:                 285 out of   1,238   23%
+    Number of fully used LUT-FF pairs:         669 out of   1,238   54%
+    Number of unique control sets:              40
+    Number of slice register sites lost
+      to control set restrictions:              10 out of  44,800    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       241 out of     640   37%
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                       8 out of     148    5%
+    Number using BlockRAM only:                  8
+    Total primitives used:
+      Number of 18k BlockRAM used:              14
+    Total Memory used (KB):                    252 out of   5,328    4%
+  Number of BUFG/BUFGCTRLs:                      1 out of      32    3%
+    Number used as BUFGs:                        1
+
+Average Fanout of Non-Clock Nets:                3.52
+
+Peak Memory Usage:  576 MB
+Total REAL time to MAP completion:  1 mins 47 secs 
+Total CPU time to MAP completion:   1 mins 32 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network PLB_wrPrim has no load.
+INFO:LIT:395 - The above info message is repeated 189 more times for the
+   following (max. 5 shown):
+   PLB_rdBurst,
+   PLB_SAValid,
+   PLB_wrPendReq,
+   PLB_rdPendReq,
+   PLB_busLock
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
+   1.050 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PLB_ABus<26>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_ABus<27>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_ABus<28>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_ABus<29>                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<0>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<1>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<2>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<3>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<4>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<5>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<6>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<7>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<8>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<9>                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<10>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<11>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<12>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<13>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<14>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_BE<15>                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_PAValid                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_RNW                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_masterID<0>                    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_masterID<1>                    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_masterID<2>                    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_size<0>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_size<1>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_size<2>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_size<3>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_type<0>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_type<1>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_type<2>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<0>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<1>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<2>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<3>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<4>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<5>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<6>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<7>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<8>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<9>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<10>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<11>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<12>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<13>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<14>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<15>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<16>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<17>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<18>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<19>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<20>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<21>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<22>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<23>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<24>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<25>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<26>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<27>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<28>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<29>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<30>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| PLB_wrDBus<31>                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| SPLB_Clk                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| SPLB_Rst                           | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| Sl_MBusy<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MBusy<1>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MBusy<2>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MBusy<3>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MBusy<4>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MBusy<5>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MBusy<6>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MBusy<7>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<0>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<1>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<2>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<3>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<4>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<5>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<6>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MIRQ<7>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<0>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<1>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<2>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<3>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<4>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<5>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<6>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MRdErr<7>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<0>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<1>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<2>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<3>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<4>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<5>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<6>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_MWrErr<7>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_SSize<0>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_SSize<1>                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_addrAck                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdBTerm                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdComp                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDAck                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<0>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<1>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<2>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<3>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<4>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<5>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<6>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<7>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<8>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<9>                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<10>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<11>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<12>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<13>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<14>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<15>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<16>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<17>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<18>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<19>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<20>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<21>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<22>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<23>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<24>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<25>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<26>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<27>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<28>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<29>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<30>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<31>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<32>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<33>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<34>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<35>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<36>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<37>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<38>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<39>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<40>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<41>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<42>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<43>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<44>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<45>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<46>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<47>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<48>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<49>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<50>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<51>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<52>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<53>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<54>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<55>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<56>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<57>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<58>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<59>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<60>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<61>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<62>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<63>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<64>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<65>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<66>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<67>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<68>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<69>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<70>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<71>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<72>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<73>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<74>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<75>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<76>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<77>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<78>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<79>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<80>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<81>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<82>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<83>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<84>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<85>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<86>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<87>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<88>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<89>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<90>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<91>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<92>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<93>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<94>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<95>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<96>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<97>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<98>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<99>                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<100>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<101>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<102>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<103>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<104>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<105>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<106>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<107>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<108>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<109>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<110>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<111>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<112>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<113>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<114>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<115>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<116>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<117>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<118>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<119>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<120>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<121>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<122>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<123>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<124>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<125>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<126>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdDBus<127>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdWdAddr<0>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdWdAddr<1>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdWdAddr<2>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rdWdAddr<3>                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_rearbitrate                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_wait                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_wrBTerm                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_wrComp                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| Sl_wrDAck                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

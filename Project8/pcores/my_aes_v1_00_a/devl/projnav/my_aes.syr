@@ -1,0 +1,1734 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.48 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> Reading design: my_aes.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "my_aes.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "my_aes"
+Output Format                      : NGC
+Target Device                      : xc5vfx70t-1-ff1136
+
+---- Source Options
+Top Module Name                    : my_aes
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit my_aes_v1_00_a/my_aes is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/my_aes.vhd", and is now defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/my_aes.vhd".
+WARNING:HDLParsers:3607 - Unit my_aes_v1_00_a/my_aes/IMP is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/my_aes.vhd", and is now defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/my_aes.vhd".
+WARNING:HDLParsers:3607 - Unit my_aes_v1_00_a/user_logic is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd", and is now defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/user_logic.vhd".
+WARNING:HDLParsers:3607 - Unit my_aes_v1_00_a/user_logic/IMP is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../hdl/vhdl/user_logic.vhd", and is now defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/user_logic.vhd".
+WARNING:HDLParsers:3607 - Unit plbv46_slave_single_v1_01_a/plbv46_slave_single is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd".
+WARNING:HDLParsers:3607 - Unit plbv46_slave_single_v1_01_a/plbv46_slave_single/implementation is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd".
+WARNING:HDLParsers:3607 - Unit plbv46_slave_single_v1_01_a/plb_slave_attachment is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd".
+WARNING:HDLParsers:3607 - Unit plbv46_slave_single_v1_01_a/plb_slave_attachment/implementation is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd".
+WARNING:HDLParsers:3607 - Unit plbv46_slave_single_v1_01_a/plb_address_decoder is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd".
+WARNING:HDLParsers:3607 - Unit plbv46_slave_single_v1_01_a/plb_address_decoder/IMP is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/counter_f is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/counter_f/imp is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/ipif_pkg is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/ipif_pkg is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/or_gate128 is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/or_gate128/imp is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/pselect_f is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/pselect_f/imp is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/family_support is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/family_support is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/or_muxcy is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/or_muxcy/implementation is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/proc_common_pkg is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd".
+WARNING:HDLParsers:3607 - Unit proc_common_v3_00_a/proc_common_pkg is now defined in a different file.  It was defined in "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd", and is now defined in "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd".
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" in Library proc_common_v3_00_a.
+Architecture proc_common_pkg of Entity proc_common_pkg is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" in Library proc_common_v3_00_a.
+Architecture implementation of Entity or_muxcy is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" in Library proc_common_v3_00_a.
+Architecture family_support of Entity family_support is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" in Library proc_common_v3_00_a.
+Architecture imp of Entity counter_f is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" in Library proc_common_v3_00_a.
+Architecture imp of Entity pselect_f is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd" in Library proc_common_v3_00_a.
+Architecture imp of Entity or_gate128 is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" in Library proc_common_v3_00_a.
+Architecture ipif_pkg of Entity ipif_pkg is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" in Library plbv46_slave_single_v1_01_a.
+Architecture imp of Entity plb_address_decoder is up to date.
+Compiling vhdl file "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/aes_component.vhd" in Library work.
+Entity <SBOX_MEM> compiled.
+Entity <SBOX_MEM> (Architecture <beh>) compiled.
+Entity <AES_component> compiled.
+Entity <AES_component> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" in Library plbv46_slave_single_v1_01_a.
+Architecture implementation of Entity plb_slave_attachment is up to date.
+Compiling vhdl file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd" in Library plbv46_slave_single_v1_01_a.
+Architecture implementation of Entity plbv46_slave_single is up to date.
+Compiling vhdl file "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/user_logic.vhd" in Library my_aes_v1_00_a.
+Architecture imp of Entity user_logic is up to date.
+Compiling vhdl file "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/my_aes.vhd" in Library my_aes_v1_00_a.
+Architecture imp of Entity my_aes is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <my_aes> in library <my_aes_v1_00_a> (architecture <imp>) with generics.
+	C_BASEADDR = "11111111111111111111111111111111"
+	C_FAMILY = "virtex6"
+	C_HIGHADDR = "00000000000000000000000000000000"
+	C_INCLUDE_DPHASE_TIMER = 0
+	C_SPLB_AWIDTH = 32
+	C_SPLB_CLK_PERIOD_PS = 10000
+	C_SPLB_DWIDTH = 128
+	C_SPLB_MID_WIDTH = 3
+	C_SPLB_NATIVE_DWIDTH = 32
+	C_SPLB_NUM_MASTERS = 8
+	C_SPLB_P2P = 0
+	C_SPLB_SMALLEST_MASTER = 32
+	C_SPLB_SUPPORT_BURSTS = 0
+
+Analyzing hierarchy for entity <plbv46_slave_single> in library <plbv46_slave_single_v1_01_a> (architecture <implementation>) with generics.
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS2CORE_CLK_RATIO = 1
+	C_FAMILY = "virtex6"
+	C_INCLUDE_DPHASE_TIMER = 0
+	C_SIPIF_DWIDTH = 32
+	C_SPLB_AWIDTH = 32
+	C_SPLB_DWIDTH = 128
+	C_SPLB_MID_WIDTH = 3
+	C_SPLB_NUM_MASTERS = 8
+	C_SPLB_P2P = 0
+
+Analyzing hierarchy for entity <user_logic> in library <my_aes_v1_00_a> (architecture <IMP>) with generics.
+	C_NUM_REG = 13
+	C_SLV_DWIDTH = 32
+
+Analyzing hierarchy for entity <plb_slave_attachment> in library <plbv46_slave_single_v1_01_a> (architecture <implementation>) with generics.
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS2CORE_CLK_RATIO = 1
+	C_DPHASE_TIMEOUT = 128
+	C_FAMILY = "virtex6"
+	C_INCLUDE_DPHASE_TIMER = 0
+	C_IPIF_ABUS_WIDTH = 32
+	C_IPIF_DBUS_WIDTH = 32
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+	C_SPLB_P2P = 0
+
+Analyzing hierarchy for entity <AES_component> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <plb_address_decoder> in library <plbv46_slave_single_v1_01_a> (architecture <IMP>) with generics.
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS_AWIDTH = 32
+	C_FAMILY = "nofamily"
+	C_SPLB_P2P = 0
+
+Analyzing hierarchy for entity <SBOX_MEM> in library <work> (architecture <beh>).
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 0
+	C_AW = 32
+	C_BAR = "11111111111111111111111111111111"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0000"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0001"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0010"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0011"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0100"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0101"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0110"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0111"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1000"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1001"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1010"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1011"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1100"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1101"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1110"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <pselect_f> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1111"
+	C_FAMILY = "nofamily"
+
+Analyzing hierarchy for entity <or_gate128> in library <proc_common_v3_00_a> (architecture <imp>) with generics.
+	C_BUS_WIDTH = 1
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = false
+
+Analyzing hierarchy for entity <or_muxcy> in library <proc_common_v3_00_a> (architecture <implementation>) with generics.
+	C_NUM_BITS = 1
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <my_aes> in library <my_aes_v1_00_a> (Architecture <imp>).
+	C_BASEADDR = "11111111111111111111111111111111"
+	C_FAMILY = "virtex6"
+	C_HIGHADDR = "00000000000000000000000000000000"
+	C_INCLUDE_DPHASE_TIMER = 0
+	C_SPLB_AWIDTH = 32
+	C_SPLB_CLK_PERIOD_PS = 10000
+	C_SPLB_DWIDTH = 128
+	C_SPLB_MID_WIDTH = 3
+	C_SPLB_NATIVE_DWIDTH = 32
+	C_SPLB_NUM_MASTERS = 8
+	C_SPLB_P2P = 0
+	C_SPLB_SMALLEST_MASTER = 32
+	C_SPLB_SUPPORT_BURSTS = 0
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+Entity <my_aes> analyzed. Unit <my_aes> generated.
+
+Analyzing generic Entity <plbv46_slave_single> in library <plbv46_slave_single_v1_01_a> (Architecture <implementation>).
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS2CORE_CLK_RATIO = 1
+	C_FAMILY = "virtex6"
+	C_INCLUDE_DPHASE_TIMER = 0
+	C_SIPIF_DWIDTH = 32
+	C_SPLB_AWIDTH = 32
+	C_SPLB_DWIDTH = 128
+	C_SPLB_MID_WIDTH = 3
+	C_SPLB_NUM_MASTERS = 8
+	C_SPLB_P2P = 0
+INFO:Xst:1561 - "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd" line 535: Mux is complete : default of case is discarded
+Entity <plbv46_slave_single> analyzed. Unit <plbv46_slave_single> generated.
+
+Analyzing generic Entity <plb_slave_attachment> in library <plbv46_slave_single_v1_01_a> (Architecture <implementation>).
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS2CORE_CLK_RATIO = 1
+	C_DPHASE_TIMEOUT = 128
+	C_FAMILY = "virtex6"
+	C_INCLUDE_DPHASE_TIMER = 0
+	C_IPIF_ABUS_WIDTH = 32
+	C_IPIF_DBUS_WIDTH = 32
+	C_PLB_MID_WIDTH = 3
+	C_PLB_NUM_MASTERS = 8
+	C_SPLB_P2P = 0
+Entity <plb_slave_attachment> analyzed. Unit <plb_slave_attachment> generated.
+
+Analyzing generic Entity <plb_address_decoder> in library <plbv46_slave_single_v1_01_a> (Architecture <IMP>).
+	C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000011111111111111111111111111111111",
+	                          "0000000000000000000000000000000000000000000000000000000000000000")
+	C_ARD_NUM_CE_ARRAY = (16)
+	C_BUS_AWIDTH = 32
+	C_FAMILY = "nofamily"
+	C_SPLB_P2P = 0
+Entity <plb_address_decoder> analyzed. Unit <plb_address_decoder> generated.
+
+Analyzing generic Entity <pselect_f.1> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 0
+	C_AW = 32
+	C_BAR = "11111111111111111111111111111111"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.1> analyzed. Unit <pselect_f.1> generated.
+
+Analyzing generic Entity <pselect_f.2> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0000"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.2> analyzed. Unit <pselect_f.2> generated.
+
+Analyzing generic Entity <pselect_f.3> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0001"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.3> analyzed. Unit <pselect_f.3> generated.
+
+Analyzing generic Entity <pselect_f.4> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0010"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.4> analyzed. Unit <pselect_f.4> generated.
+
+Analyzing generic Entity <pselect_f.5> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0011"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.5> analyzed. Unit <pselect_f.5> generated.
+
+Analyzing generic Entity <pselect_f.6> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0100"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.6> analyzed. Unit <pselect_f.6> generated.
+
+Analyzing generic Entity <pselect_f.7> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0101"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.7> analyzed. Unit <pselect_f.7> generated.
+
+Analyzing generic Entity <pselect_f.8> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0110"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.8> analyzed. Unit <pselect_f.8> generated.
+
+Analyzing generic Entity <pselect_f.9> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "0111"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.9> analyzed. Unit <pselect_f.9> generated.
+
+Analyzing generic Entity <pselect_f.10> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1000"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.10> analyzed. Unit <pselect_f.10> generated.
+
+Analyzing generic Entity <pselect_f.11> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1001"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.11> analyzed. Unit <pselect_f.11> generated.
+
+Analyzing generic Entity <pselect_f.12> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1010"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.12> analyzed. Unit <pselect_f.12> generated.
+
+Analyzing generic Entity <pselect_f.13> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1011"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.13> analyzed. Unit <pselect_f.13> generated.
+
+Analyzing generic Entity <pselect_f.14> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1100"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.14> analyzed. Unit <pselect_f.14> generated.
+
+Analyzing generic Entity <pselect_f.15> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1101"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.15> analyzed. Unit <pselect_f.15> generated.
+
+Analyzing generic Entity <pselect_f.16> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1110"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.16> analyzed. Unit <pselect_f.16> generated.
+
+Analyzing generic Entity <pselect_f.17> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_AB = 4
+	C_AW = 4
+	C_BAR = "1111"
+	C_FAMILY = "nofamily"
+Entity <pselect_f.17> analyzed. Unit <pselect_f.17> generated.
+
+Analyzing generic Entity <or_gate128> in library <proc_common_v3_00_a> (Architecture <imp>).
+	C_BUS_WIDTH = 1
+	C_OR_WIDTH = 1
+	C_USE_LUT_OR = false
+Entity <or_gate128> analyzed. Unit <or_gate128> generated.
+
+Analyzing generic Entity <or_muxcy> in library <proc_common_v3_00_a> (Architecture <implementation>).
+	C_NUM_BITS = 1
+Entity <or_muxcy> analyzed. Unit <or_muxcy> generated.
+
+Analyzing generic Entity <user_logic> in library <my_aes_v1_00_a> (Architecture <IMP>).
+	C_NUM_REG = 13
+	C_SLV_DWIDTH = 32
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+WARNING:Xst:37 - Detected unknown constraint/property "SIGIS". This constraint/property is not supported by the current software release and will be ignored.
+Entity <user_logic> analyzed. Unit <user_logic> generated.
+
+Analyzing Entity <AES_component> in library <work> (Architecture <Behavioral>).
+Entity <AES_component> analyzed. Unit <AES_component> generated.
+
+Analyzing Entity <SBOX_MEM> in library <work> (Architecture <beh>).
+Entity <SBOX_MEM> analyzed. Unit <SBOX_MEM> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <pselect_f_1>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <pselect_f_1> synthesized.
+
+
+Synthesizing Unit <pselect_f_2>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_2> synthesized.
+
+
+Synthesizing Unit <pselect_f_3>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_3> synthesized.
+
+
+Synthesizing Unit <pselect_f_4>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_4> synthesized.
+
+
+Synthesizing Unit <pselect_f_5>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_5> synthesized.
+
+
+Synthesizing Unit <pselect_f_6>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_6> synthesized.
+
+
+Synthesizing Unit <pselect_f_7>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_7> synthesized.
+
+
+Synthesizing Unit <pselect_f_8>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_8> synthesized.
+
+
+Synthesizing Unit <pselect_f_9>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_9> synthesized.
+
+
+Synthesizing Unit <pselect_f_10>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_10> synthesized.
+
+
+Synthesizing Unit <pselect_f_11>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_11> synthesized.
+
+
+Synthesizing Unit <pselect_f_12>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_12> synthesized.
+
+
+Synthesizing Unit <pselect_f_13>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_13> synthesized.
+
+
+Synthesizing Unit <pselect_f_14>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_14> synthesized.
+
+
+Synthesizing Unit <pselect_f_15>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_15> synthesized.
+
+
+Synthesizing Unit <pselect_f_16>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_16> synthesized.
+
+
+Synthesizing Unit <pselect_f_17>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
+Unit <pselect_f_17> synthesized.
+
+
+Synthesizing Unit <or_muxcy>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd".
+Unit <or_muxcy> synthesized.
+
+
+Synthesizing Unit <SBOX_MEM>.
+    Related source file is "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/aes_component.vhd".
+WARNING:Xst:1781 - Signal <sSBOX_MEM> is used but never assigned. Tied to default value.
+    Found 256x8-bit ROM for signal <$varindex0000> created at line 38.
+    Found 256x8-bit ROM for signal <$varindex0001> created at line 39.
+    Found 8-bit register for signal <SBOX_DATA_OUT_A>.
+    Found 8-bit register for signal <SBOX_DATA_OUT_B>.
+    Summary:
+	inferred   2 ROM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <SBOX_MEM> synthesized.
+
+
+Synthesizing Unit <or_gate128>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_gate128.vhd".
+WARNING:Xst:1780 - Signal <test> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <or_gate128> synthesized.
+
+
+Synthesizing Unit <AES_component>.
+    Related source file is "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/devl/projnav/aes_component.vhd".
+WARNING:Xst:1780 - Signal <scount> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 16x8-bit ROM for signal <sRcon_out$rom0000> created at line 312.
+    Found 16x128-bit dual-port RAM <Mram_sKEY_MEM> for signal <sKEY_MEM>.
+    Found finite state machine <FSM_0> for signal <sstate>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 128-bit register for signal <AES_CT>.
+    Found 1-bit xor2 for signal <$xor0000> created at line 253.
+    Found 1-bit xor2 for signal <$xor0001> created at line 258.
+    Found 1-bit xor2 for signal <$xor0002> created at line 253.
+    Found 1-bit xor2 for signal <$xor0003> created at line 243.
+    Found 1-bit xor2 for signal <$xor0004> created at line 243.
+    Found 1-bit xor2 for signal <$xor0005> created at line 248.
+    Found 1-bit xor2 for signal <$xor0006> created at line 258.
+    Found 1-bit xor2 for signal <$xor0007> created at line 243.
+    Found 1-bit xor2 for signal <$xor0008> created at line 248.
+    Found 1-bit xor2 for signal <$xor0009> created at line 243.
+    Found 1-bit xor2 for signal <$xor0010> created at line 248.
+    Found 1-bit xor2 for signal <$xor0011> created at line 253.
+    Found 1-bit xor2 for signal <$xor0012> created at line 248.
+    Found 1-bit xor2 for signal <$xor0013> created at line 253.
+    Found 1-bit xor2 for signal <$xor0014> created at line 258.
+    Found 1-bit xor2 for signal <$xor0015> created at line 258.
+    Found 1-bit xor3 for signal <$xor0016> created at line 254.
+    Found 1-bit xor2 for signal <$xor0017> created at line 254.
+    Found 1-bit xor2 for signal <$xor0018> created at line 254.
+    Found 1-bit xor2 for signal <$xor0019> created at line 259.
+    Found 1-bit xor2 for signal <$xor0020> created at line 259.
+    Found 1-bit xor3 for signal <$xor0021> created at line 259.
+    Found 1-bit xor2 for signal <$xor0022> created at line 259.
+    Found 1-bit xor3 for signal <$xor0023> created at line 259.
+    Found 1-bit xor2 for signal <$xor0024> created at line 259.
+    Found 1-bit xor3 for signal <$xor0025> created at line 259.
+    Found 1-bit xor2 for signal <$xor0026> created at line 259.
+    Found 1-bit xor3 for signal <$xor0027> created at line 259.
+    Found 1-bit xor2 for signal <$xor0028> created at line 259.
+    Found 1-bit xor3 for signal <$xor0029> created at line 259.
+    Found 1-bit xor2 for signal <$xor0030> created at line 259.
+    Found 1-bit xor2 for signal <$xor0031> created at line 259.
+    Found 1-bit xor3 for signal <$xor0032> created at line 254.
+    Found 1-bit xor2 for signal <$xor0033> created at line 254.
+    Found 1-bit xor2 for signal <$xor0034> created at line 254.
+    Found 1-bit xor2 for signal <$xor0035> created at line 259.
+    Found 1-bit xor2 for signal <$xor0036> created at line 259.
+    Found 1-bit xor3 for signal <$xor0037> created at line 259.
+    Found 1-bit xor2 for signal <$xor0038> created at line 259.
+    Found 1-bit xor3 for signal <$xor0039> created at line 259.
+    Found 1-bit xor2 for signal <$xor0040> created at line 259.
+    Found 1-bit xor3 for signal <$xor0041> created at line 259.
+    Found 1-bit xor2 for signal <$xor0042> created at line 259.
+    Found 1-bit xor3 for signal <$xor0043> created at line 259.
+    Found 1-bit xor2 for signal <$xor0044> created at line 259.
+    Found 1-bit xor3 for signal <$xor0045> created at line 259.
+    Found 1-bit xor2 for signal <$xor0046> created at line 259.
+    Found 1-bit xor2 for signal <$xor0047> created at line 259.
+    Found 1-bit xor3 for signal <$xor0048> created at line 254.
+    Found 1-bit xor2 for signal <$xor0049> created at line 254.
+    Found 1-bit xor2 for signal <$xor0050> created at line 254.
+    Found 1-bit xor2 for signal <$xor0051> created at line 259.
+    Found 1-bit xor2 for signal <$xor0052> created at line 259.
+    Found 1-bit xor3 for signal <$xor0053> created at line 259.
+    Found 1-bit xor2 for signal <$xor0054> created at line 259.
+    Found 1-bit xor3 for signal <$xor0055> created at line 259.
+    Found 1-bit xor2 for signal <$xor0056> created at line 259.
+    Found 1-bit xor3 for signal <$xor0057> created at line 259.
+    Found 1-bit xor2 for signal <$xor0058> created at line 259.
+    Found 1-bit xor3 for signal <$xor0059> created at line 259.
+    Found 1-bit xor2 for signal <$xor0060> created at line 259.
+    Found 1-bit xor3 for signal <$xor0061> created at line 259.
+    Found 1-bit xor2 for signal <$xor0062> created at line 259.
+    Found 1-bit xor2 for signal <$xor0063> created at line 259.
+    Found 1-bit xor2 for signal <$xor0064> created at line 244.
+    Found 1-bit xor2 for signal <$xor0065> created at line 244.
+    Found 1-bit xor2 for signal <$xor0066> created at line 244.
+    Found 1-bit xor2 for signal <$xor0067> created at line 244.
+    Found 1-bit xor2 for signal <$xor0068> created at line 244.
+    Found 1-bit xor2 for signal <$xor0069> created at line 244.
+    Found 1-bit xor2 for signal <$xor0070> created at line 244.
+    Found 1-bit xor2 for signal <$xor0071> created at line 244.
+    Found 1-bit xor2 for signal <$xor0072> created at line 244.
+    Found 1-bit xor2 for signal <$xor0073> created at line 244.
+    Found 1-bit xor3 for signal <$xor0074> created at line 244.
+    Found 1-bit xor2 for signal <$xor0075> created at line 244.
+    Found 1-bit xor2 for signal <$xor0076> created at line 244.
+    Found 1-bit xor2 for signal <$xor0077> created at line 244.
+    Found 1-bit xor3 for signal <$xor0078> created at line 244.
+    Found 1-bit xor2 for signal <$xor0079> created at line 244.
+    Found 1-bit xor2 for signal <$xor0080> created at line 244.
+    Found 1-bit xor2 for signal <$xor0081> created at line 254.
+    Found 1-bit xor2 for signal <$xor0082> created at line 254.
+    Found 1-bit xor3 for signal <$xor0083> created at line 244.
+    Found 1-bit xor2 for signal <$xor0084> created at line 244.
+    Found 1-bit xor2 for signal <$xor0085> created at line 244.
+    Found 1-bit xor2 for signal <$xor0086> created at line 254.
+    Found 1-bit xor2 for signal <$xor0087> created at line 244.
+    Found 1-bit xor2 for signal <$xor0088> created at line 244.
+    Found 1-bit xor2 for signal <$xor0089> created at line 244.
+    Found 1-bit xor3 for signal <$xor0090> created at line 244.
+    Found 1-bit xor2 for signal <$xor0091> created at line 244.
+    Found 1-bit xor2 for signal <$xor0092> created at line 244.
+    Found 1-bit xor2 for signal <$xor0093> created at line 259.
+    Found 1-bit xor3 for signal <$xor0094> created at line 244.
+    Found 1-bit xor2 for signal <$xor0095> created at line 244.
+    Found 1-bit xor2 for signal <$xor0096> created at line 244.
+    Found 1-bit xor2 for signal <$xor0097> created at line 244.
+    Found 1-bit xor2 for signal <$xor0098> created at line 259.
+    Found 1-bit xor2 for signal <$xor0099> created at line 249.
+    Found 1-bit xor2 for signal <$xor0100> created at line 244.
+    Found 1-bit xor2 for signal <$xor0101> created at line 244.
+    Found 1-bit xor2 for signal <$xor0102> created at line 259.
+    Found 1-bit xor2 for signal <$xor0103> created at line 249.
+    Found 1-bit xor2 for signal <$xor0104> created at line 244.
+    Found 1-bit xor2 for signal <$xor0105> created at line 259.
+    Found 1-bit xor2 for signal <$xor0106> created at line 244.
+    Found 1-bit xor2 for signal <$xor0107> created at line 249.
+    Found 128-bit xor2 for signal <sCT_STATE_FIRST>.
+    Found 128-bit xor2 for signal <sCT_STATE_LAST>.
+    Found 128-bit xor2 for signal <sCT_STATE_MAIN>.
+    Found 4-bit up counter for signal <sENCRYPT_CNT>.
+    Found 4-bit register for signal <sKEY_EXP_CNT>.
+    Found 4-bit adder for signal <sKEY_EXP_CNT$addsub0000> created at line 273.
+    Found 128-bit register for signal <sKEY_MEM_DATA_OUT>.
+    Found 4-bit adder for signal <sKEY_MEM_READ_ADDRESS$addsub0000> created at line 154.
+    Found 4-bit subtractor for signal <sKEY_MEM_WRITE_ADDRESS$addsub0000> created at line 279.
+    Found 128-bit register for signal <sKEY_REG>.
+    Found 128-bit register for signal <sKEY_REG_128>.
+    Found 128-bit register for signal <sPT_REG>.
+    Found 1-bit xor2 for signal <sRcon_out$xor0000> created at line 312.
+    Found 1-bit xor2 for signal <sRcon_out$xor0001> created at line 312.
+    Found 1-bit xor2 for signal <sRcon_out$xor0002> created at line 312.
+    Found 1-bit xor2 for signal <sRcon_out$xor0003> created at line 312.
+    Found 1-bit xor2 for signal <sRcon_out$xor0004> created at line 312.
+    Found 1-bit xor2 for signal <sRcon_out$xor0005> created at line 312.
+    Found 1-bit xor2 for signal <sRcon_out$xor0006> created at line 312.
+    Found 1-bit xor2 for signal <sRcon_out$xor0007> created at line 312.
+    Found 128-bit xor2 for signal <sXOR>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 RAM(s).
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred 644 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred 119 Xor(s).
+Unit <AES_component> synthesized.
+
+
+Synthesizing Unit <user_logic>.
+    Related source file is "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/user_logic.vhd".
+    Found 32-bit register for signal <slv_reg0>.
+    Found 32-bit register for signal <slv_reg1>.
+    Found 32-bit register for signal <slv_reg2>.
+    Found 32-bit register for signal <slv_reg3>.
+    Found 32-bit register for signal <slv_reg4>.
+    Found 32-bit register for signal <slv_reg5>.
+    Found 32-bit register for signal <slv_reg6>.
+    Found 32-bit register for signal <slv_reg7>.
+    Found 32-bit register for signal <slv_reg8>.
+    Summary:
+	inferred 288 D-type flip-flop(s).
+Unit <user_logic> synthesized.
+
+
+Synthesizing Unit <plb_address_decoder>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd".
+WARNING:Xst:647 - Input <Bus_RNW_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Address_In_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Address_Valid_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <cs_s_h_clr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cs_ce_clr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <addr_out_s_h<4:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <addr_match_clr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 6-bit register for signal <addr_out_s_h>.
+    Found 1-bit register for signal <cs_out_i<0>>.
+    Found 1-bit register for signal <cs_out_s_h<0>>.
+    Found 1-bit register for signal <decode_hit_reg>.
+    Found 16-bit register for signal <rdce_out_i>.
+    Found 1-bit register for signal <rnw_s_h>.
+    Found 16-bit register for signal <wrce_out_i>.
+    Summary:
+	inferred  42 D-type flip-flop(s).
+Unit <plb_address_decoder> synthesized.
+
+
+Synthesizing Unit <plb_slave_attachment>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd".
+WARNING:Xst:647 - Input <PLB_UABus> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <valid_plb_type> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <valid_plb_size> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <start_data_phase> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_wrdack_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_wrcomp_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_wait_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_rddack_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_rdcomp_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <sl_data_ack> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <set_sl_busy_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rd_ce_ld_enable> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clear_sl_rd_busy_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clear_sl_rd_busy> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clear_sl_busy_ns> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clear_rd_ce> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Register <sl_rdcomp_i> equivalent to <rd_clear_sl_busy> has been removed
+    Register <sl_rddack_i> equivalent to <rd_clear_sl_busy> has been removed
+    Register <sl_addrack_i> equivalent to <set_sl_busy> has been removed
+    Register <sl_wrdack_i> equivalent to <sl_wrcomp_i> has been removed
+    Register <wr_clear_sl_busy> equivalent to <sl_wrcomp_i> has been removed
+    Found 1-bit register for signal <addr_cntl_cs<0>>.
+    Found 1-bit register for signal <addr_cycle_flush>.
+    Found 32-bit register for signal <bus2ip_addr_i>.
+    Found 4-bit register for signal <bus2ip_be_i>.
+    Found 1-bit register for signal <bus2ip_rnw_i>.
+    Found 3-bit register for signal <master_id>.
+    Found 32-bit register for signal <plb_abus_reg>.
+    Found 4-bit register for signal <plb_be_reg>.
+    Found 3-bit register for signal <plb_masterid_reg>.
+    Found 1-bit register for signal <plb_pavalid_reg>.
+    Found 1-bit register for signal <plb_rnw_reg>.
+    Found 4-bit register for signal <plb_size_reg>.
+    Found 3-bit register for signal <plb_type_reg>.
+    Found 32-bit register for signal <plb_wrdbus_reg>.
+    Found 1-bit register for signal <rd_clear_sl_busy>.
+    Found 1-bit register for signal <set_sl_busy>.
+    Found 1-bit register for signal <sl_busy>.
+    Found 8-bit register for signal <sl_mbusy_i>.
+    Found 8-bit register for signal <sl_mrderr_i>.
+    Found 8-bit register for signal <sl_mwrerr_i>.
+    Found 32-bit register for signal <sl_rddbus_i>.
+    Found 1-bit register for signal <sl_rearbitrate_i>.
+    Found 1-bit register for signal <sl_wrcomp_i>.
+    Summary:
+	inferred 183 D-type flip-flop(s).
+Unit <plb_slave_attachment> synthesized.
+
+
+Synthesizing Unit <plbv46_slave_single>.
+    Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plbv46_slave_single.vhd".
+WARNING:Xst:647 - Input <PLB_wrPrim> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_MSize> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdBurst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_SAValid> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrPendReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrPendPri> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdPendReq> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdPendPri> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_busLock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrDBus<32:127>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_reqPri> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_lockErr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_wrBurst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_TAttribute> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_rdPrim> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PLB_abort> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <plbv46_slave_single> synthesized.
+
+
+Synthesizing Unit <my_aes>.
+    Related source file is "C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/hdl/vhdl/my_aes.vhd".
+WARNING:Xst:646 - Signal <ipif_Bus2IP_WrCE<13:15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ipif_Bus2IP_RdCE<13:15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ipif_Bus2IP_RNW> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ipif_Bus2IP_CS<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <ipif_Bus2IP_Addr> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <my_aes> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x128-bit dual-port RAM                              : 1
+# ROMs                                                 : 21
+ 16x8-bit ROM                                          : 1
+ 256x8-bit ROM                                         : 20
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 2
+ 4-bit subtractor                                      : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 401
+ 1-bit register                                        : 358
+ 128-bit register                                      : 3
+ 3-bit register                                        : 3
+ 32-bit register                                       : 12
+ 4-bit register                                        : 4
+ 6-bit register                                        : 1
+ 8-bit register                                        : 20
+# Xors                                                 : 260
+ 1-bit xor2                                            : 125
+ 1-bit xor3                                            : 61
+ 1-bit xor4                                            : 35
+ 1-bit xor5                                            : 22
+ 1-bit xor6                                            : 1
+ 32-bit xor2                                           : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <USER_LOGIC_I/AES_componnet_instance_0/sstate/FSM> on signal <sstate[1:9]> with one-hot encoding.
+--------------------------
+ State       | Encoding
+--------------------------
+ idle        | 000000001
+ getkey      | 000000010
+ getpt       | 000000100
+ encryptmain | 001000000
+ encryptlast | 010000000
+ encryptdone | 100000000
+ keyexp_1    | 000001000
+ keyexp_2    | 000010000
+ keyexp_done | 000100000
+--------------------------
+WARNING:Xst:1290 - Hierarchical block <MEM_DECODE_GEN[0].PER_CE_GEN[13].MULTIPLE_CES_THIS_CS_GEN.CE_I> is unconnected in block <I_DECODER>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MEM_DECODE_GEN[0].PER_CE_GEN[14].MULTIPLE_CES_THIS_CS_GEN.CE_I> is unconnected in block <I_DECODER>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MEM_DECODE_GEN[0].PER_CE_GEN[15].MULTIPLE_CES_THIS_CS_GEN.CE_I> is unconnected in block <I_DECODER>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_1> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_0> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_2> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_4> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_3> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_5> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_6> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mwrerr_i_7> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_0> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_2> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_1> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_3> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_4> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_7> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_5> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <sl_mrderr_i_6> (without init value) has a constant value of 0 in block <I_SLAVE_ATTACHMENT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <addr_out_s_h_5> of sequential type is unconnected in block <I_DECODER>.
+WARNING:Xst:2677 - Node <addr_out_s_h_4> of sequential type is unconnected in block <I_DECODER>.
+WARNING:Xst:2677 - Node <plb_abus_reg_31> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_30> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_25> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_24> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_23> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_22> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_21> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_20> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_19> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_18> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_17> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_16> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_15> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_14> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_13> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_12> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_11> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_10> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_9> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_8> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_7> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_6> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_5> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_4> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_3> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_2> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_1> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+WARNING:Xst:2677 - Node <plb_abus_reg_0> of sequential type is unconnected in block <I_SLAVE_ATTACHMENT>.
+
+Synthesizing (advanced) Unit <AES_component>.
+INFO:Xst:3226 - The RAM <Mram_sKEY_MEM> will be implemented as a BLOCK RAM, absorbing the following register(s): <sKEY_MEM_DATA_OUT>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 128-bit                   |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <sKEY_MEM_WE>   | high     |
+    |     addrA          | connected to signal <sKEY_MEM_WRITE_ADDRESS> |          |
+    |     diA            | connected to signal <sKEY_REG_128>  |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 16-word x 128-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <sKEY_MEM_READ_ADDRESS> |          |
+    |     doB            | connected to signal <sKEY_MEM_DATA_OUT> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3044 - The ROM <SBOX_02/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_02/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_02/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_02/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_01/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_01/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_01/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_01/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[3].SBOX_2_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[3].SBOX_2_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[3].SBOX_1_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[3].SBOX_1_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[2].SBOX_2_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[2].SBOX_2_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[2].SBOX_1_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[2].SBOX_1_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[1].SBOX_2_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[1].SBOX_2_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[1].SBOX_1_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[1].SBOX_1_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[0].SBOX_2_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[0].SBOX_2_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0001> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[0].SBOX_1_0/SBOX_DATA_OUT_B>.
+INFO:Xst:3044 - The ROM <SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <SBOX_ENCRYPT[0].SBOX_1_0/SBOX_DATA_OUT_A>.
+INFO:Xst:3225 - The RAM <SBOX_02/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sKEY_REG_128>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sSBOX_out>     |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_02/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sKEY_REG_128>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sSBOX_out>     |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_01/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sKEY_REG_128>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sSBOX_out>     |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_01/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sKEY_REG_128>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sSBOX_out>     |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<3>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<3>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<3>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<3>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<3>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<3>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<3>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<3>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<2>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<2>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<2>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<2>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<2>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<2>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<2>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<2>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<1>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<1>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<1>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<1>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<1>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<1>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<1>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<1>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<0>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<0>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<0>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<0>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0001> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<0>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<0>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3225 - The RAM <SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <sCT_STATE<0>>  |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <sCT_AFTER_SBOX<0>> |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <AES_component> synthesized (advanced).
+WARNING:Xst:2677 - Node <addr_out_s_h_5> of sequential type is unconnected in block <plb_address_decoder>.
+WARNING:Xst:2677 - Node <addr_out_s_h_4> of sequential type is unconnected in block <plb_address_decoder>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 21
+ 16x128-bit dual-port block RAM                        : 1
+ 256x8-bit single-port block RAM                       : 20
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 3
+ 4-bit adder                                           : 2
+ 4-bit subtractor                                      : 1
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 1036
+ Flip-Flops                                            : 1036
+# Xors                                                 : 260
+ 1-bit xor2                                            : 125
+ 1-bit xor3                                            : 61
+ 1-bit xor4                                            : 35
+ 1-bit xor5                                            : 22
+ 1-bit xor6                                            : 1
+ 32-bit xor2                                           : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <addr_cntl_cs_0> in Unit <plb_slave_attachment> is equivalent to the following FF/Latch, which will be removed : <addr_cycle_flush> 
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_02/Mrom__varindex0001>, <SBOX_02/Mrom__varindex0000> are packed into the single block RAM <SBOX_02/Mrom__varindex00011>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0001>, <SBOX_01/Mrom__varindex0001> are packed into the single block RAM <SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex00011>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_01/Mrom__varindex0000>, <SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex0000> are packed into the single block RAM <SBOX_01/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0001>, <SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex0000> are packed into the single block RAM <SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex00011>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0000>, <SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex0001> are packed into the single block RAM <SBOX_ENCRYPT[2].SBOX_2_0/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0001>, <SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0000> are packed into the single block RAM <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex00011>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex0000>, <SBOX_ENCRYPT[1].SBOX_2_0/Mrom__varindex0001> are packed into the single block RAM <SBOX_ENCRYPT[2].SBOX_1_0/Mrom__varindex00001>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0001>, <SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex0000> are packed into the single block RAM <SBOX_ENCRYPT[1].SBOX_1_0/Mrom__varindex00011>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0001>, <SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex0000> are packed into the single block RAM <SBOX_ENCRYPT[0].SBOX_2_0/Mrom__varindex00011>
+INFO:Xst:2697 - Unit <AES_component> : the RAMs <SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0001>, <SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex0000> are packed into the single block RAM <SBOX_ENCRYPT[0].SBOX_1_0/Mrom__varindex00011>
+
+Optimizing unit <my_aes> ...
+
+Optimizing unit <AES_component> ...
+
+Optimizing unit <plb_address_decoder> ...
+
+Optimizing unit <user_logic> ...
+
+Optimizing unit <plb_slave_attachment> ...
+
+Optimizing unit <plbv46_slave_single> ...
+WARNING:Xst:1710 - FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_0> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_1> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_3> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_2> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_5> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_4> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_6> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mwrerr_i_7> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_1> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_0> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_4> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_2> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_3> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_5> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_6> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_mrderr_i_7> (without init value) has a constant value of 0 in block <my_aes>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_31> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_30> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_25> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_24> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_23> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_22> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_21> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_20> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_19> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_18> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_17> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_16> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_31> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_30> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_29> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_28> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_27> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_26> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_25> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_24> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_23> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_22> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_21> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_20> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_19> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_18> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_17> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_16> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_15> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_14> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_13> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_12> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_11> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_10> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_9> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_8> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_7> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_6> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_5> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_4> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_3> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_2> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_1> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_addr_i_0> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_15> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_13> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_14> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_15> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_14> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_13> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0> of sequential type is unconnected in block <my_aes>.
+WARNING:Xst:2677 - Node <PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_s_h_0> of sequential type is unconnected in block <my_aes>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block my_aes, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 954
+ Flip-Flops                                            : 954
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : my_aes.ngr
+Top Level Output File Name         : my_aes
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 431
+
+Cell Usage :
+# BELS                             : 967
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 202
+#      LUT3                        : 47
+#      LUT4                        : 150
+#      LUT5                        : 108
+#      LUT6                        : 455
+#      MUXF7                       : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 954
+#      FD                          : 43
+#      FDE                         : 512
+#      FDR                         : 167
+#      FDRE                        : 232
+# RAMS                             : 14
+#      RAMB18                      : 10
+#      RAMB18SDP                   : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 240
+#      IBUF                        : 65
+#      OBUF                        : 175
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vfx70tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             954  out of  44800     2%  
+ Number of Slice LUTs:                  964  out of  44800     2%  
+    Number used as Logic:               964  out of  44800     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1498
+   Number with an unused Flip Flop:     544  out of   1498    36%  
+   Number with an unused LUT:           534  out of   1498    35%  
+   Number of fully used LUT-FF pairs:   420  out of   1498    28%  
+   Number of unique control sets:        40
+
+IO Utilization: 
+ Number of IOs:                         431
+ Number of bonded IOBs:                 241  out of    640    37%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                7  out of    148     4%  
+    Number using Block RAM only:          7
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+SPLB_Clk                           | BUFGP                  | 968   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 4.531ns (Maximum Frequency: 220.702MHz)
+   Minimum input arrival time before clock: 2.711ns
+   Maximum output required time after clock: 3.388ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SPLB_Clk'
+  Clock period: 4.531ns (frequency: 220.702MHz)
+  Total number of paths / destination ports: 14690 / 2034
+-------------------------------------------------------------------------
+Delay:               4.531ns (Levels of Logic = 2)
+  Source:            USER_LOGIC_I/AES_componnet_instance_0/SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex00011 (RAM)
+  Destination:       USER_LOGIC_I/AES_componnet_instance_0/SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex00011 (RAM)
+  Source Clock:      SPLB_Clk rising
+  Destination Clock: SPLB_Clk rising
+
+  Data Path: USER_LOGIC_I/AES_componnet_instance_0/SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex00011 to USER_LOGIC_I/AES_componnet_instance_0/SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex00011
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB18:CLKB->DOB3     6   2.180   1.000  USER_LOGIC_I/AES_componnet_instance_0/SBOX_ENCRYPT[3].SBOX_1_0/Mrom__varindex00011 (USER_LOGIC_I/AES_componnet_instance_0/sCT_AFTER_SBOX<3><27>)
+     LUT5:I0->O            1   0.094   0.480  USER_LOGIC_I/AES_componnet_instance_0/sCT_STATE_3_mux0000<4>2_SW0 (N453)
+     LUT6:I5->O            1   0.094   0.336  USER_LOGIC_I/AES_componnet_instance_0/sCT_STATE_3_mux0000<4>2 (USER_LOGIC_I/AES_componnet_instance_0/sCT_STATE<3><4>)
+     RAMB18:ADDRA7             0.347          USER_LOGIC_I/AES_componnet_instance_0/SBOX_ENCRYPT[3].SBOX_2_0/Mrom__varindex00011
+    ----------------------------------------
+    Total                      4.531ns (2.715ns logic, 1.816ns route)
+                                       (59.9% logic, 40.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SPLB_Clk'
+  Total number of paths / destination ports: 497 / 477
+-------------------------------------------------------------------------
+Offset:              2.711ns (Levels of Logic = 2)
+  Source:            SPLB_Rst (PAD)
+  Destination:       PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31 (FF)
+  Destination Clock: SPLB_Clk rising
+
+  Data Path: SPLB_Rst to PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           353   0.818   0.763  SPLB_Rst_IBUF (SPLB_Rst_IBUF)
+     LUT2:I0->O           32   0.094   0.463  PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or00001 (PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_or0000)
+     FDR:R                     0.573          PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31
+    ----------------------------------------
+    Total                      2.711ns (1.485ns logic, 1.226ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SPLB_Clk'
+  Total number of paths / destination ports: 142 / 142
+-------------------------------------------------------------------------
+Offset:              3.388ns (Levels of Logic = 1)
+  Source:            PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy (FF)
+  Destination:       Sl_addrAck (PAD)
+  Source Clock:      SPLB_Clk rising
+
+  Data Path: PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy to Sl_addrAck
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             40   0.471   0.465  PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy (PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/set_sl_busy)
+     OBUF:I->O                 2.452          Sl_addrAck_OBUF (Sl_addrAck)
+    ----------------------------------------
+    Total                      3.388ns (2.923ns logic, 0.465ns route)
+                                       (86.3% logic, 13.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 58.00 secs
+Total CPU time to Xst completion: 58.85 secs
+ 
+--> 
+
+Total memory usage is 897240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  214 (   0 filtered)
+Number of infos    :   53 (   0 filtered)
+

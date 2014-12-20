@@ -1,0 +1,2 @@
+proc_common_v3_00_a	"../../../../../../Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd"
+work	"aes_component.vhd"

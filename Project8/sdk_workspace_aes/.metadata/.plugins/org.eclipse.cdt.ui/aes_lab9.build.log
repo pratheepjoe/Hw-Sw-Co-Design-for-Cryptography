@@ -1,0 +1,5 @@
+
+**** Build of configuration Debug for project aes_lab9 ****
+
+make all 
+make: *** No rule to make target `aes_test.o', needed by `aes_lab9.elf'.  Stop.

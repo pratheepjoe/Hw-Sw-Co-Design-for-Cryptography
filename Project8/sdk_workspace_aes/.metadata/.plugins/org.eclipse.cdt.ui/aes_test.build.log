@@ -1,0 +1,80 @@
+
+**** Build of configuration Debug for project aes_test ****
+
+make all 
+Building file: ../src/aes_test.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -pg -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -MMD -MP -MF"src/aes_test.d" -MT"src/aes_test.d" -o"src/aes_test.o" "../src/aes_test.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab9a\sdk_workspace_aes\aes_test\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab9a/sdk_workspace_aes/aes_test/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+../src/aes_test.c: In function 'main':
+../src/aes_test.c:14:3: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+../src/aes_test.c:10:50: warning: unused variable 'Reg32Value8' [-Wunused-variable]
+../src/aes_test.c:10:37: warning: unused variable 'Reg32Value7' [-Wunused-variable]
+../src/aes_test.c:10:24: warning: unused variable 'Reg32Value6' [-Wunused-variable]
+../src/aes_test.c:10:11: warning: unused variable 'Reg32Value5' [-Wunused-variable]
+../src/aes_test.c:9:50: warning: unused variable 'Reg32Value4' [-Wunused-variable]
+../src/aes_test.c:9:37: warning: unused variable 'Reg32Value3' [-Wunused-variable]
+../src/aes_test.c:9:24: warning: unused variable 'Reg32Value2' [-Wunused-variable]
+../src/aes_test.c:9:11: warning: unused variable 'Reg32Value1' [-Wunused-variable]
+../src/aes_test.c:8:11: warning: unused variable 'Reg32Value0' [-Wunused-variable]
+../src/aes_test.c:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+Finished building: ../src/aes_test.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -pg -c -fmessage-length=0 -Wl,--no-relax -I../../standalone_bsp_0/microblaze_0/include -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o"src/platform.o" "../src/platform.c"
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab9a\sdk_workspace_aes\aes_test\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab9a/sdk_workspace_aes/aes_test/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building: ../src/platform.c
+ 
+Building target: aes_test.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,--no-relax -Wl,-T -Wl,../src/lscript.ld -pg -L../../standalone_bsp_0/microblaze_0/lib -mxl-barrel-shift -mxl-pattern-compare -mcpu=v8.40.a -mno-xl-soft-mul -o"aes_test.elf"  ./src/aes_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab9a\sdk_workspace_aes\aes_test\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab9a/sdk_workspace_aes/aes_test/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+Finished building target: aes_test.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size aes_test.elf  |tee "aes_test.elf.size"
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab9a\sdk_workspace_aes\aes_test\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab9a/sdk_workspace_aes/aes_test/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+   text	   data	    bss	    dec	    hex	filename
+   8766	    360	   2096	  11222	   2bd6	aes_test.elf
+Finished building: aes_test.elf.size
+ 
+Invoking: Xilinx ELF Check
+elfcheck aes_test.elf -hw ../../Lab9a_hw_platform/system.xml -pe microblaze_0  |tee "aes_test.elf.elfcheck"
+cygwin warning:
+  MS-DOS style path detected: C:\Rajeev\Lab9a\sdk_workspace_aes\aes_test\Debug
+  Preferred POSIX equivalent is: /cygdrive/c/Rajeev/Lab9a/sdk_workspace_aes/aes_test/Debug
+  CYGWIN environment variable option "nodosfilewarning" turns off this warning.
+  Consult the user's guide for more details about POSIX paths:
+    http://cygwin.com/cygwin-ug-net/using.html#using-pathnames
+elfcheck
+Xilinx EDK 14.2 Build EDK_P.28xd
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../Lab9a_hw_platform/system.xml -pe microblaze_0
+aes_test.elf 
+
+ELF file	: aes_test.elf
+elfcheck passed.
+Finished building: aes_test.elf.elfcheck
+ 

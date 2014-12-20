@@ -1,0 +1,15 @@
+!SESSION 2014-05-18 04:43:15.075 -----------------------------------------------
+eclipse.buildId=Release 14.2 Build SDK_P.28xd
+java.version=1.6.0_21
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-05-18 04:47:03.341
+!MESSAGE Indexed 'standalone_bsp_0' (0 sources, 8 headers) in 0.32 sec: 0 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-05-18 04:48:37.384
+!MESSAGE Indexed 'aes_lab9' (2 sources, 31 headers) in 0.60 sec: 1,082 declarations; 1,106 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.05%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-05-18 04:56:05.618
+!MESSAGE Indexed 'aes_test' (2 sources, 31 headers) in 0.28 sec: 1,082 declarations; 1,106 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.05%)

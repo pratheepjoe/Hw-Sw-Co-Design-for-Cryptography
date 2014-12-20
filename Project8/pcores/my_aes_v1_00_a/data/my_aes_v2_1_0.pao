@@ -1,0 +1,11 @@
+##############################################################################
+## Filename:          C:/Rajeev/Lab9a/pcores/my_aes_v1_00_a/data/my_aes_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sun May 18 02:49:22 2014 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_single_v1_01_a  all 
+lib my_aes_v1_00_a user_logic vhdl
+lib my_aes_v1_00_a my_aes vhdl
+lib my_aes_v1_00_a aes_component vhdl

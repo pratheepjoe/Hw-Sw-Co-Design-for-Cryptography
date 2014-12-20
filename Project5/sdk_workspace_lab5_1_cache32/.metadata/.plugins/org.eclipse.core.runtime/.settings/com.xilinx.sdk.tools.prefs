@@ -1,0 +1,26 @@
+#Thu Apr 03 15:18:08 EDT 2014
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.sbss=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:Stack-size=1024
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:Stack=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.sdata2=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:Stack=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.rodata=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:Heap=ddr2_sdram_MPMC_BASEADDR
+eclipse.preferences.version=1
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:Heap=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.text=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.sdata=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.text=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.sdata=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:Heap-size=1024
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.sdata2=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.rodata=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.bss=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.sbss2=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.sbss2=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.bss=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.data=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:Stack-size=1024
+com.xilinx.sdk.linkgen.prefs.AES_128_1\:.data=ddr2_sdram_MPMC_BASEADDR
+com.xilinx.sdk.linkgen.prefs.AES_128_2\:.sbss=ddr2_sdram_MPMC_BASEADDR

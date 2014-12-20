@@ -1,0 +1,3 @@
+PROCESSOR=microblaze_0
+REPOSITORIES=
+HWSPEC=../xps_workspace_cache32_hw_platform/system.xml
