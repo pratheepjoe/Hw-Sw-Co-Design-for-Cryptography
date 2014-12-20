@@ -1,0 +1,1 @@
+Using Xilinx Platform Studio (XPS) to create the hardware and software for an FPGA based system-on-chip.
